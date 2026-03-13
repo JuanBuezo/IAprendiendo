@@ -1,0 +1,36 @@
+# --- Entorno virtual -------------------------------------------------
+.venv/
+venv/
+env/
+
+# --- Variables de entorno (¡NUNCA subir a Git!) ----------------------
+.env
+
+# --- Python ----------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# --- Django ----------------------------------------------------------
+db.sqlite3
+staticfiles/
+media/
+
+# --- IDEs ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# --- Tests -----------------------------------------------------------
+.coverage
+htmlcov/
+.pytest_cache/
