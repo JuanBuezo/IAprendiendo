@@ -16,7 +16,7 @@ urlpatterns = [
         path("", include("apps.core.urls")),
 
         # Aquí irás añadiendo las rutas de cada nueva app:
-        # path("users/", include("apps.users.urls")),
+        path("", include("apps.users.urls")),
         # path("courses/", include("apps.courses.urls")),
     ])),
 

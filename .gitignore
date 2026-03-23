@@ -34,3 +34,6 @@ media/
 .coverage
 htmlcov/
 .pytest_cache/
+
+# --- Imagenes Anexo ------------------------------------------------------
+ImagenesAnexo/
